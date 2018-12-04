@@ -1,0 +1,961 @@
+2018-12-04 10:01:34,113 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2018-12-04 10:02:20,763 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cn.gdut:BigData:0.0.1-SNAPSHOT @ D:\gdut\BigData\pom.xml.
+2018-12-04 10:02:21,095 [Worker-11: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-12-04 10:02:22,339 [Worker-11: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-12-04 10:02:24,805 [Worker-1: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-12-04 10:02:25,176 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 10:02:25,180 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-04 10:02:25,188 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 10:02:25,188 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gdut\BigData\src\test\resources
+2018-12-04 10:02:25,729 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/joda-time/joda-time/2.5/joda-time-2.5-sources.jar
+2018-12-04 10:02:27,555 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/joda-time/joda-time/2.5/joda-time-2.5-sources.jar
+2018-12-04 10:02:27,939 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for joda-time:joda-time:2.5
+2018-12-04 10:02:28,095 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar
+2018-12-04 10:02:28,993 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2-sources.jar
+2018-12-04 10:02:29,388 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.3.2
+2018-12-04 10:02:29,551 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2-sources.jar
+2018-12-04 10:02:29,804 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/1.3.2/commons-io-1.3.2-sources.jar
+2018-12-04 10:02:30,262 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-io:commons-io:1.3.2
+2018-12-04 10:02:30,424 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-net/commons-net/3.3/commons-net-3.3-sources.jar
+2018-12-04 10:02:30,879 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-net/commons-net/3.3/commons-net-3.3-sources.jar
+2018-12-04 10:02:31,315 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-net:commons-net:3.3
+2018-12-04 10:02:31,486 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.2/jackson-databind-2.6.2-sources.jar
+2018-12-04 10:02:33,370 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.2/jackson-databind-2.6.2-sources.jar
+2018-12-04 10:02:34,007 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.6.2
+2018-12-04 10:02:34,180 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0-sources.jar
+2018-12-04 10:02:34,399 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0-sources.jar
+2018-12-04 10:02:34,582 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-annotations:2.6.0
+2018-12-04 10:02:34,756 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2-sources.jar
+2018-12-04 10:02:35,096 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2-sources.jar
+2018-12-04 10:02:35,287 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.6.2
+2018-12-04 10:02:35,448 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5-sources.jar
+2018-12-04 10:02:36,541 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5-sources.jar
+2018-12-04 10:02:37,370 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpclient:4.3.5
+2018-12-04 10:02:37,532 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar
+2018-12-04 10:02:38,085 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar
+2018-12-04 10:02:38,263 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.httpcomponents:httpcore:4.3.2
+2018-12-04 10:02:38,431 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar
+2018-12-04 10:02:38,624 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar
+2018-12-04 10:02:39,074 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.1.3
+2018-12-04 10:02:39,237 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar
+2018-12-04 10:02:39,522 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar
+2018-12-04 10:02:40,018 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-codec:commons-codec:1.6
+2018-12-04 10:02:40,182 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
+2018-12-04 10:02:40,575 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12-sources.jar
+2018-12-04 10:02:41,026 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:4.12
+2018-12-04 10:02:41,189 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2018-12-04 10:02:41,365 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2018-12-04 10:02:41,598 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hamcrest:hamcrest-core:1.3
+2018-12-04 10:02:41,757 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4-sources.jar
+2018-12-04 10:02:41,920 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.6.4/slf4j-log4j12-1.6.4-sources.jar
+2018-12-04 10:02:42,198 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-log4j12:1.6.4
+2018-12-04 10:02:42,362 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4-sources.jar
+2018-12-04 10:02:42,540 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4-sources.jar
+2018-12-04 10:02:42,707 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.6.4
+2018-12-04 10:02:42,880 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16-sources.jar
+2018-12-04 10:02:44,103 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16-sources.jar
+2018-12-04 10:02:44,515 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for log4j:log4j:1.2.16
+2018-12-04 10:02:44,672 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar
+2018-12-04 10:02:45,677 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.2.8/mybatis-3.2.8-sources.jar
+2018-12-04 10:02:45,898 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mybatis:mybatis:3.2.8
+2018-12-04 10:02:46,069 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2-sources.jar
+2018-12-04 10:02:46,282 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2-sources.jar
+2018-12-04 10:02:46,481 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mybatis:mybatis-spring:1.2.2
+2018-12-04 10:02:46,645 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.6/mybatis-generator-core-1.3.6-sources.jar
+2018-12-04 10:02:47,415 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/generator/mybatis-generator-core/1.3.6/mybatis-generator-core-1.3.6-sources.jar
+2018-12-04 10:02:47,654 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.mybatis.generator:mybatis-generator-core:1.3.6
+2018-12-04 10:02:47,824 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15-sources.jar
+2018-12-04 10:02:47,998 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/miemiedev/mybatis-paginator/1.2.15/mybatis-paginator-1.2.15-sources.jar
+2018-12-04 10:02:48,222 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.miemiedev:mybatis-paginator:1.2.15
+2018-12-04 10:02:48,387 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/pagehelper/pagehelper/3.6.0/pagehelper-3.6.0-sources.jar
+2018-12-04 10:02:48,551 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/pagehelper/pagehelper/3.6.0/pagehelper-3.6.0-sources.jar
+2018-12-04 10:02:48,770 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.pagehelper:pagehelper:3.6.0
+2018-12-04 10:02:48,933 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/jsqlparser/jsqlparser/0.9.1/jsqlparser-0.9.1-sources.jar
+2018-12-04 10:02:49,435 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/jsqlparser/jsqlparser/0.9.1/jsqlparser-0.9.1-sources.jar
+2018-12-04 10:02:49,696 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.jsqlparser:jsqlparser:0.9.1
+2018-12-04 10:02:49,851 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.32/mysql-connector-java-5.1.32-sources.jar
+2018-12-04 10:02:51,852 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.32/mysql-connector-java-5.1.32-sources.jar
+2018-12-04 10:02:52,236 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:5.1.32
+2018-12-04 10:02:52,413 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/alibaba/druid/1.0.9/druid-1.0.9-sources.jar
+2018-12-04 10:02:54,689 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/alibaba/druid/1.0.9/druid-1.0.9-sources.jar
+2018-12-04 10:02:54,997 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.alibaba:druid:1.0.9
+2018-12-04 10:02:55,155 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/alibaba/jconsole/1.8.0/jconsole-1.8.0-sources.jar
+2018-12-04 10:02:55,167 [Worker-1: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.alibaba:jconsole:1.8.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.alibaba:jconsole:jar:sources:1.8.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2018-12-04 10:02:55,336 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/alibaba/tools/1.8.0/tools-1.8.0-sources.jar
+2018-12-04 10:02:55,343 [Worker-1: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.alibaba:tools:1.8.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.alibaba:tools:jar:sources:1.8.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2018-12-04 10:02:55,517 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.3.RELEASE/spring-context-4.1.3.RELEASE-sources.jar
+2018-12-04 10:02:57,285 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.1.3.RELEASE/spring-context-4.1.3.RELEASE-sources.jar
+2018-12-04 10:02:57,548 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.1.3.RELEASE
+2018-12-04 10:02:57,713 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE-sources.jar
+2018-12-04 10:02:58,574 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.1.3.RELEASE/spring-aop-4.1.3.RELEASE-sources.jar
+2018-12-04 10:02:58,927 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.1.3.RELEASE
+2018-12-04 10:02:59,082 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+2018-12-04 10:02:59,268 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+2018-12-04 10:02:59,715 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2018-12-04 10:02:59,888 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.3.RELEASE/spring-core-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:01,372 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.3.RELEASE/spring-core-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:01,556 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.1.3.RELEASE
+2018-12-04 10:03:01,715 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.3.RELEASE/spring-expression-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:02,259 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.3.RELEASE/spring-expression-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:02,454 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.1.3.RELEASE
+2018-12-04 10:03:02,629 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.3.RELEASE/spring-beans-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:03,731 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.3.RELEASE/spring-beans-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:03,914 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.1.3.RELEASE
+2018-12-04 10:03:04,080 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:05,598 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:05,763 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:4.1.3.RELEASE
+2018-12-04 10:03:05,931 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:07,528 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:08,223 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:4.1.3.RELEASE
+2018-12-04 10:03:08,383 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.1.3.RELEASE/spring-jdbc-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:08,987 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.1.3.RELEASE/spring-jdbc-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:09,171 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:4.1.3.RELEASE
+2018-12-04 10:03:09,337 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.1.3.RELEASE/spring-tx-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:09,668 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.1.3.RELEASE/spring-tx-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:09,923 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:4.1.3.RELEASE
+2018-12-04 10:03:10,104 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/4.1.3.RELEASE/spring-aspects-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:10,275 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/4.1.3.RELEASE/spring-aspects-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:10,454 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aspects:4.1.3.RELEASE
+2018-12-04 10:03:10,614 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.4/aspectjweaver-1.8.4-sources.jar
+2018-12-04 10:03:13,107 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.8.4/aspectjweaver-1.8.4-sources.jar
+2018-12-04 10:03:13,339 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.8.4
+2018-12-04 10:03:13,502 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/4.1.3.RELEASE/spring-context-support-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:13,885 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/4.1.3.RELEASE/spring-context-support-4.1.3.RELEASE-sources.jar
+2018-12-04 10:03:14,080 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context-support:4.1.3.RELEASE
+2018-12-04 10:03:14,234 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2-sources.jar
+2018-12-04 10:03:14,242 [Worker-1: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for jstl:jstl:1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar:sources:1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2018-12-04 10:03:14,403 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar
+2018-12-04 10:03:14,634 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar
+2018-12-04 10:03:15,120 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:servlet-api:2.5
+2018-12-04 10:03:15,274 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jsp-api/2.0/jsp-api-2.0-sources.jar
+2018-12-04 10:03:15,282 [Worker-1: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for javax.servlet:jsp-api:2.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.servlet:jsp-api:jar:sources:2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2018-12-04 10:03:15,443 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1-sources.jar
+2018-12-04 10:03:15,641 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1-sources.jar
+2018-12-04 10:03:16,096 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-fileupload:commons-fileupload:1.3.1
+2018-12-04 10:03:16,256 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/2.7.2/jedis-2.7.2-sources.jar
+2018-12-04 10:03:16,473 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/redis/clients/jedis/2.7.2/jedis-2.7.2-sources.jar
+2018-12-04 10:03:16,935 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for redis.clients:jedis:2.7.2
+2018-12-04 10:03:17,097 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3-sources.jar
+2018-12-04 10:03:17,310 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3-sources.jar
+2018-12-04 10:03:17,505 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-pool2:2.3
+2018-12-04 10:03:17,665 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-sources.jar
+2018-12-04 10:03:19,187 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-sources.jar
+2018-12-04 10:03:19,413 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.freemarker:freemarker:2.3.23
+2018-12-04 10:03:19,577 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2-sources.jar
+2018-12-04 10:03:20,801 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2-sources.jar
+2018-12-04 10:03:21,040 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.quartz-scheduler:quartz:2.2.2
+2018-12-04 10:03:21,195 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1-sources.jar
+2018-12-04 10:03:21,974 [Worker-1: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1-sources.jar
+2018-12-04 10:03:22,443 [Worker-1: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for c3p0:c3p0:0.9.1.1
+2018-12-04 10:03:22,795 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 10:03:22,801 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-04 10:03:22,802 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 10:03:22,802 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\gdut\BigData\src\test\resources
+2018-12-04 10:03:24,782 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/alibaba/jconsole/1.8.0/jconsole-1.8.0-javadoc.jar
+2018-12-04 10:03:24,789 [Worker-0: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.alibaba:jconsole:1.8.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.alibaba:jconsole:jar:javadoc:1.8.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2018-12-04 10:03:25,007 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/alibaba/tools/1.8.0/tools-1.8.0-javadoc.jar
+2018-12-04 10:03:25,014 [Worker-0: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.alibaba:tools:1.8.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.alibaba:tools:jar:javadoc:1.8.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2018-12-04 10:03:25,236 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2-javadoc.jar
+2018-12-04 10:03:25,243 [Worker-0: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for jstl:jstl:1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar:javadoc:1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2018-12-04 10:03:25,461 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/jsp-api/2.0/jsp-api-2.0-javadoc.jar
+2018-12-04 10:03:25,468 [Worker-0: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for javax.servlet:jsp-api:2.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.servlet:jsp-api:jar:javadoc:2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.1.20180912-1601.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.100.v20180817-1215.jar:na]
+2018-12-04 10:07:53,529 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 10:07:53,538 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-04 10:07:53,565 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 10:07:53,566 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-04 10:08:22,989 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-04 11:19:10,498 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-04 13:44:28,620 [Worker-6: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-04 13:44:59,871 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: gdut does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:250) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:514) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:639) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:51) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:72) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:83) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:132) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:346) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:325) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$2(WorkbenchPage.java:306) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:213) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:253) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:250) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:775) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:684) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:679) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3306) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3197) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3194) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3158) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3148) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:376) ~[na:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:182) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:287) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:252) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252) ~[na:na]
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53) ~[na:na]
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:219) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183) ~[na:na]
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:49) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1165) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:454) ~[na:na]
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:276) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:271) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:311) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[org.eclipse.core.databinding.observable_1.6.300.v20180827-2028.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156) ~[org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[org.eclipse.core.databinding.observable_1.6.300.v20180827-2028.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199) ~[org.eclipse.equinox.app_1.3.600.v20180827-1235.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+2018-12-04 13:45:16,505 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: gdut does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:250) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:514) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:639) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:51) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:72) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:83) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:132) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:346) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:325) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$2(WorkbenchPage.java:306) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:213) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:253) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:250) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:775) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:684) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:97) [org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.lambda$2(StackRenderer.java:1045) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1517) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Shell.WM_MOUSEACTIVATE(Shell.java:2347) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4812) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2304) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2203) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.ToolBar.callWindowProc(ToolBar.java:158) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4792) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:2793) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3556) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156) ~[org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199) ~[org.eclipse.equinox.app_1.3.600.v20180827-1235.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+2018-12-04 13:45:18,889 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: gdut does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:250) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:514) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:639) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:51) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:72) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:83) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:132) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:346) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:325) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$2(WorkbenchPage.java:306) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:213) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:253) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:250) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:775) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:684) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:679) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3306) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3197) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3194) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3158) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3148) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:376) ~[na:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:182) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:287) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:252) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252) ~[na:na]
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53) ~[na:na]
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:219) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183) ~[na:na]
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:49) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1165) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:454) ~[na:na]
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:276) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:271) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:311) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[org.eclipse.core.databinding.observable_1.6.300.v20180827-2028.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156) ~[org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[org.eclipse.core.databinding.observable_1.6.300.v20180827-2028.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199) ~[org.eclipse.equinox.app_1.3.600.v20180827-1235.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+2018-12-04 13:45:24,279 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: gdut does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:250) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:514) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:639) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:51) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:72) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:83) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:132) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:346) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:325) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$2(WorkbenchPage.java:306) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:213) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:253) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:250) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:775) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:684) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:679) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1376) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1311) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1269) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$0(StackRenderer.java:1255) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1123) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1961) [org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:336) [org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199) ~[org.eclipse.equinox.app_1.3.600.v20180827-1235.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+2018-12-04 13:45:29,833 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: gdut does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:250) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:514) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:639) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:51) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:72) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:83) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:132) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:346) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:325) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$2(WorkbenchPage.java:306) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:213) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:253) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:250) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:775) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:684) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:679) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3306) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3197) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3194) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3158) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3148) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:376) ~[na:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:182) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:287) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:252) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252) ~[na:na]
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53) ~[na:na]
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:219) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183) ~[na:na]
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:49) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1165) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:454) ~[na:na]
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:276) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:271) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:311) ~[org.eclipse.jface_3.14.100.v20180828-0836.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[org.eclipse.core.databinding.observable_1.6.300.v20180827-2028.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156) ~[org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[org.eclipse.core.databinding.observable_1.6.300.v20180827-2028.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151) ~[org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199) ~[org.eclipse.equinox.app_1.3.600.v20180827-1235.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+2018-12-04 13:45:31,434 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: gdut does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:250) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:514) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:639) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:51) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:72) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:83) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:132) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:346) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:325) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$2(WorkbenchPage.java:306) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:213) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:253) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:250) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:775) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:684) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:97) [org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.lambda$0(ContributedPartRenderer.java:63) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1517) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1480) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Control.java:2972) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Widget.java:2234) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Control.java:5434) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4838) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2529) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.forceFocus(Control.java:1116) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3457) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Composite.setFocus(Composite.java:1100) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.ui.internal.ErrorEditorPart.setFocus(ErrorEditorPart.java:84) ~[na:na]
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.delegateSetFocus(CompatibilityPart.java:225) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58) ~[org.eclipse.e4.core.di_1.7.100.v20180817-1215.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320) ~[org.eclipse.e4.core.di_1.7.100.v20180817-1215.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:326) ~[org.eclipse.e4.core.di_1.7.100.v20180817-1215.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:248) ~[org.eclipse.e4.core.di_1.7.100.v20180817-1215.jar:na]
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:139) ~[org.eclipse.e4.core.contexts_1.7.100.v20180817-1215.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.focusGui(PartRenderingEngine.java:808) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer$1.setFocus(ContributedPartRenderer.java:106) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.swt.custom.CTabItem.setFocus(CTabItem.java:343) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.setFocus(CTabFolder.java:2642) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.fixFocus(Control.java:1071) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.setVisible(Control.java:3971) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3186) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3143) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1308) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.lambda$0(LazyStackRenderer.java:75) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38) ~[org.eclipse.e4.ui.services_1.3.200.v20180906-1121.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147) ~[na:na]
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4594) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:215) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38) ~[org.eclipse.e4.ui.services_1.3.200.v20180906-1121.jar:na]
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:204) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:199) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1) ~[na:na]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:138) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:81) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:42) ~[na:na]
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55) ~[org.eclipse.e4.ui.services_1.3.200.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63) ~[org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424) ~[org.eclipse.emf.common_2.15.0.v20180723-1316.jar:na]
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:177) ~[org.eclipse.e4.ui.model.workbench_2.1.100.v20180904-1914.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1357) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1311) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1269) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$0(StackRenderer.java:1255) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1123) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1961) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:336) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156) ~[org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199) ~[org.eclipse.equinox.app_1.3.600.v20180827-1235.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+2018-12-04 13:45:32,514 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: gdut does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:250) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:514) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:639) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:51) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:72) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:83) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:132) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:346) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:325) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$2(WorkbenchPage.java:306) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:213) [org.eclipse.ui.workbench_3.112.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:253) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.10.100.v20180827-1235.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:250) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:775) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:684) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:97) [org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.lambda$0(ContributedPartRenderer.java:63) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1517) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1480) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Control.java:2972) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Widget.java:2234) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Control.java:5434) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4838) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2529) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.forceFocus(Control.java:1116) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3457) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Composite.setFocus(Composite.java:1100) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.ui.internal.ErrorEditorPart.setFocus(ErrorEditorPart.java:84) ~[na:na]
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.delegateSetFocus(CompatibilityPart.java:225) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58) ~[org.eclipse.e4.core.di_1.7.100.v20180817-1215.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320) ~[org.eclipse.e4.core.di_1.7.100.v20180817-1215.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:326) ~[org.eclipse.e4.core.di_1.7.100.v20180817-1215.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:248) ~[org.eclipse.e4.core.di_1.7.100.v20180817-1215.jar:na]
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:139) ~[org.eclipse.e4.core.contexts_1.7.100.v20180817-1215.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.focusGui(PartRenderingEngine.java:808) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer$1.setFocus(ContributedPartRenderer.java:106) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.swt.custom.CTabItem.setFocus(CTabItem.java:343) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.setFocus(CTabFolder.java:2642) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.fixFocus(Control.java:1071) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Control.setVisible(Control.java:3971) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3186) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3143) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1308) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.lambda$0(LazyStackRenderer.java:75) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38) ~[org.eclipse.e4.ui.services_1.3.200.v20180906-1121.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147) ~[na:na]
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4594) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:215) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38) ~[org.eclipse.e4.ui.services_1.3.200.v20180906-1121.jar:na]
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:204) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:199) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1) ~[na:na]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:138) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:81) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:42) ~[na:na]
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55) ~[org.eclipse.e4.ui.services_1.3.200.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63) ~[org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424) ~[org.eclipse.emf.common_2.15.0.v20180723-1316.jar:na]
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:177) ~[org.eclipse.e4.ui.model.workbench_2.1.100.v20180904-1914.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1357) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1311) [org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1269) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$0(StackRenderer.java:1255) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1123) ~[org.eclipse.e4.ui.workbench.renderers.swt_0.14.300.v20180828-0227.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1961) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:336) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561) ~[org.eclipse.swt.win32.win32.x86_64_3.108.0.v20180904-1901.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062) ~[org.eclipse.e4.ui.workbench.swt_0.14.300.v20180906-1121.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156) ~[org.eclipse.e4.ui.workbench_1.7.0.v20180906-1121.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199) ~[org.eclipse.equinox.app_1.3.600.v20180827-1235.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246) ~[org.eclipse.osgi_3.13.100.v20180827-1536.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_191]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501) ~[org.eclipse.equinox.launcher_1.5.100.v20180827-1352.jar:na]
+2018-12-04 13:46:05,733 [Worker-8: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-12-04 13:46:06,457 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 13:46:06,465 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-04 13:46:06,504 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 13:46:06,504 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-04 13:46:08,014 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 13:46:08,021 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-04 13:46:08,024 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 13:46:08,024 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
