@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.gdut.mapper.AlgorithmMapper">
+  <resultMap id="BaseResultMap" type="cn.gdut.domain.Algorithm">
+    <id column="algo_id" jdbcType="INTEGER" property="algoId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="algo_name" jdbcType="VARCHAR" property="algoName" />
+    <result column="algo_class" jdbcType="INTEGER" property="algoClass" />
+    <result column="algo_type" jdbcType="INTEGER" property="algoType" />
+    <result column="algo_subtype" jdbcType="INTEGER" property="algoSubtype" />
+    <result column="algo_language" jdbcType="INTEGER" property="algoLanguage" />
+    <result column="algo_input_num" jdbcType="INTEGER" property="algoInputNum" />
+    <result column="algo_output_num" jdbcType="INTEGER" property="algoOutputNum" />
+    <result column="algo_icon" jdbcType="VARCHAR" property="algoIcon" />
+    <result column="algo_file_num" jdbcType="INTEGER" property="algoFileNum" />
+    <result column="algo_create_time" jdbcType="TIMESTAMP" property="algoCreateTime" />
+    <result column="file_rootPath" jdbcType="VARCHAR" property="fileRootpath" />
+    <collection property="paramList" ofType="cn.gdut.domain.AlgorithmParam"
+                    javaType="java.util.ArrayList" select="selectParamsByAlgoId"
+                    column="algo_id">
+    </collection>
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="cn.gdut.domain.Algorithm">
+    <result column="algo_desc" jdbcType="LONGVARCHAR" property="algoDesc" />
+  </resultMap>
+  
+  <resultMap id="BaseParamResultMap" type="cn.gdut.domain.AlgorithmParam">
+    <id column="param_id" jdbcType="INTEGER" property="paramId" />
+    <result column="algo_id" jdbcType="INTEGER" property="algoId" />
+    <result column="param_name" jdbcType="VARCHAR" property="paramName" />
+    <result column="param_order" jdbcType="INTEGER" property="paramOrder" />
+    <result column="param_type" jdbcType="INTEGER" property="paramType" />
+    <result column="param_show_type" jdbcType="INTEGER" property="paramShowType" />
+    <result column="param_default_value" jdbcType="VARCHAR" property="paramDefaultValue" />
+    <result column="param_bind" jdbcType="VARCHAR" property="paramBind" />
+  </resultMap>
+  
+  
+  
+  
+  
+  
+  
+  <sql id="Base_Column_List">
+    algo_id, user_id, algo_name, algo_class, algo_type, algo_subtype, algo_language, 
+    algo_input_num, algo_output_num, algo_icon, algo_file_num, algo_create_time, file_rootPath
+  </sql>
+  <sql id="Blob_Column_List">
+    algo_desc
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from algorithm
+    where algo_id = #{algoId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from algorithm
+    where algo_id = #{algoId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.gdut.domain.Algorithm" useGeneratedKeys="true"  keyProperty="algoId">
+    insert into algorithm (algo_id, user_id, algo_name, 
+      algo_class, algo_type, algo_subtype, 
+      algo_language, algo_input_num, algo_output_num, 
+      algo_icon, algo_file_num, algo_create_time, 
+      file_rootPath, algo_desc)
+    values (#{algoId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{algoName,jdbcType=VARCHAR}, 
+      #{algoClass,jdbcType=INTEGER}, #{algoType,jdbcType=INTEGER}, #{algoSubtype,jdbcType=INTEGER}, 
+      #{algoLanguage,jdbcType=INTEGER}, #{algoInputNum,jdbcType=INTEGER}, #{algoOutputNum,jdbcType=INTEGER}, 
+      #{algoIcon,jdbcType=VARCHAR}, #{algoFileNum,jdbcType=INTEGER}, #{algoCreateTime,jdbcType=TIMESTAMP}, 
+      #{fileRootpath,jdbcType=VARCHAR}, #{algoDesc,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.gdut.domain.Algorithm" useGeneratedKeys="true"  keyProperty="algoId">
+    insert into algorithm
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="algoId != null">
+        algo_id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="algoName != null">
+        algo_name,
+      </if>
+      <if test="algoClass != null">
+        algo_class,
+      </if>
+      <if test="algoType != null">
+        algo_type,
+      </if>
+      <if test="algoSubtype != null">
+        algo_subtype,
+      </if>
+      <if test="algoLanguage != null">
+        algo_language,
+      </if>
+      <if test="algoInputNum != null">
+        algo_input_num,
+      </if>
+      <if test="algoOutputNum != null">
+        algo_output_num,
+      </if>
+      <if test="algoIcon != null">
+        algo_icon,
+      </if>
+      <if test="algoFileNum != null">
+        algo_file_num,
+      </if>
+      <if test="algoCreateTime != null">
+        algo_create_time,
+      </if>
+      <if test="fileRootpath != null">
+        file_rootPath,
+      </if>
+      <if test="algoDesc != null">
+        algo_desc,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="algoId != null">
+        #{algoId,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="algoName != null">
+        #{algoName,jdbcType=VARCHAR},
+      </if>
+      <if test="algoClass != null">
+        #{algoClass,jdbcType=INTEGER},
+      </if>
+      <if test="algoType != null">
+        #{algoType,jdbcType=INTEGER},
+      </if>
+      <if test="algoSubtype != null">
+        #{algoSubtype,jdbcType=INTEGER},
+      </if>
+      <if test="algoLanguage != null">
+        #{algoLanguage,jdbcType=INTEGER},
+      </if>
+      <if test="algoInputNum != null">
+        #{algoInputNum,jdbcType=INTEGER},
+      </if>
+      <if test="algoOutputNum != null">
+        #{algoOutputNum,jdbcType=INTEGER},
+      </if>
+      <if test="algoIcon != null">
+        #{algoIcon,jdbcType=VARCHAR},
+      </if>
+      <if test="algoFileNum != null">
+        #{algoFileNum,jdbcType=INTEGER},
+      </if>
+      <if test="algoCreateTime != null">
+        #{algoCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="fileRootpath != null">
+        #{fileRootpath,jdbcType=VARCHAR},
+      </if>
+      <if test="algoDesc != null">
+        #{algoDesc,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.gdut.domain.Algorithm">
+    update algorithm
+    <set>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="algoName != null">
+        algo_name = #{algoName,jdbcType=VARCHAR},
+      </if>
+      <if test="algoClass != null">
+        algo_class = #{algoClass,jdbcType=INTEGER},
+      </if>
+      <if test="algoType != null">
+        algo_type = #{algoType,jdbcType=INTEGER},
+      </if>
+      <if test="algoSubtype != null">
+        algo_subtype = #{algoSubtype,jdbcType=INTEGER},
+      </if>
+      <if test="algoLanguage != null">
+        algo_language = #{algoLanguage,jdbcType=INTEGER},
+      </if>
+      <if test="algoInputNum != null">
+        algo_input_num = #{algoInputNum,jdbcType=INTEGER},
+      </if>
+      <if test="algoOutputNum != null">
+        algo_output_num = #{algoOutputNum,jdbcType=INTEGER},
+      </if>
+      <if test="algoIcon != null">
+        algo_icon = #{algoIcon,jdbcType=VARCHAR},
+      </if>
+      <if test="algoFileNum != null">
+        algo_file_num = #{algoFileNum,jdbcType=INTEGER},
+      </if>
+      <if test="algoCreateTime != null">
+        algo_create_time = #{algoCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="fileRootpath != null">
+        file_rootPath = #{fileRootpath,jdbcType=VARCHAR},
+      </if>
+      <if test="algoDesc != null">
+        algo_desc = #{algoDesc,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where algo_id = #{algoId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="cn.gdut.domain.Algorithm">
+    update algorithm
+    set user_id = #{userId,jdbcType=INTEGER},
+      algo_name = #{algoName,jdbcType=VARCHAR},
+      algo_class = #{algoClass,jdbcType=INTEGER},
+      algo_type = #{algoType,jdbcType=INTEGER},
+      algo_subtype = #{algoSubtype,jdbcType=INTEGER},
+      algo_language = #{algoLanguage,jdbcType=INTEGER},
+      algo_input_num = #{algoInputNum,jdbcType=INTEGER},
+      algo_output_num = #{algoOutputNum,jdbcType=INTEGER},
+      algo_icon = #{algoIcon,jdbcType=VARCHAR},
+      algo_file_num = #{algoFileNum,jdbcType=INTEGER},
+      algo_create_time = #{algoCreateTime,jdbcType=TIMESTAMP},
+      file_rootPath = #{fileRootpath,jdbcType=VARCHAR},
+      algo_desc = #{algoDesc,jdbcType=LONGVARCHAR}
+    where algo_id = #{algoId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.gdut.domain.Algorithm">
+    update algorithm
+    set user_id = #{userId,jdbcType=INTEGER},
+      algo_name = #{algoName,jdbcType=VARCHAR},
+      algo_class = #{algoClass,jdbcType=INTEGER},
+      algo_type = #{algoType,jdbcType=INTEGER},
+      algo_subtype = #{algoSubtype,jdbcType=INTEGER},
+      algo_language = #{algoLanguage,jdbcType=INTEGER},
+      algo_input_num = #{algoInputNum,jdbcType=INTEGER},
+      algo_output_num = #{algoOutputNum,jdbcType=INTEGER},
+      algo_icon = #{algoIcon,jdbcType=VARCHAR},
+      algo_file_num = #{algoFileNum,jdbcType=INTEGER},
+      algo_create_time = #{algoCreateTime,jdbcType=TIMESTAMP},
+      file_rootPath = #{fileRootpath,jdbcType=VARCHAR}
+    where algo_id = #{algoId,jdbcType=INTEGER}
+  </update>
+  
+  
+  
+  <select id="selectByUserId" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from algorithm
+    where user_id = #{userId,jdbcType=INTEGER}
+  </select>
+  
+  
+  <select id="selectParamsByAlgoId" parameterType="java.lang.Integer" resultMap="BaseParamResultMap">
+    select * from algorithmparam where algo_id = #{algoId,jdbcType=INTEGER}
+  </select>
+  
+
+  
+</mapper>

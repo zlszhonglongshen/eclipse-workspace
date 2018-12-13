@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.gdut.mapper.AlgorithmFileMapper">
+  <resultMap id="BaseResultMap" type="cn.gdut.domain.AlgorithmFile">
+    <id column="file_id" jdbcType="INTEGER" property="fileId" />
+    <result column="algo_id" jdbcType="INTEGER" property="algoId" />
+    <result column="file_name" jdbcType="VARCHAR" property="fileName" />
+    <result column="file_url" jdbcType="VARCHAR" property="fileUrl" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    file_id, algo_id, file_name, file_url
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from algorithmfile
+    where file_id = #{fileId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from algorithmfile
+    where file_id = #{fileId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.gdut.domain.AlgorithmFile" useGeneratedKeys="true"  keyProperty="fileId">
+    insert into algorithmfile (file_id, algo_id, file_name, 
+      file_url)
+    values (#{fileId,jdbcType=INTEGER}, #{algoId,jdbcType=INTEGER}, #{fileName,jdbcType=VARCHAR}, 
+      #{fileUrl,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.gdut.domain.AlgorithmFile" useGeneratedKeys="true"  keyProperty="fileId">
+    insert into algorithmfile
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="fileId != null">
+        file_id,
+      </if>
+      <if test="algoId != null">
+        algo_id,
+      </if>
+      <if test="fileName != null">
+        file_name,
+      </if>
+      <if test="fileUrl != null">
+        file_url,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="fileId != null">
+        #{fileId,jdbcType=INTEGER},
+      </if>
+      <if test="algoId != null">
+        #{algoId,jdbcType=INTEGER},
+      </if>
+      <if test="fileName != null">
+        #{fileName,jdbcType=VARCHAR},
+      </if>
+      <if test="fileUrl != null">
+        #{fileUrl,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.gdut.domain.AlgorithmFile">
+    update algorithmfile
+    <set>
+      <if test="algoId != null">
+        algo_id = #{algoId,jdbcType=INTEGER},
+      </if>
+      <if test="fileName != null">
+        file_name = #{fileName,jdbcType=VARCHAR},
+      </if>
+      <if test="fileUrl != null">
+        file_url = #{fileUrl,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where file_id = #{fileId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.gdut.domain.AlgorithmFile">
+    update algorithmfile
+    set algo_id = #{algoId,jdbcType=INTEGER},
+      file_name = #{fileName,jdbcType=VARCHAR},
+      file_url = #{fileUrl,jdbcType=VARCHAR}
+    where file_id = #{fileId,jdbcType=INTEGER}
+  </update>
+</mapper>

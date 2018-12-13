@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.gdut.mapper.mymodel.MyModelMapper">
+  <resultMap id="BaseResultMap" type="cn.gdut.domain.mymodel.MyModel">
+    <id column="mymodel_id" jdbcType="INTEGER" property="mymodelId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="mymodel_name" jdbcType="VARCHAR" property="mymodelName" />
+    <result column="mymodel_icon" jdbcType="VARCHAR" property="mymodelIcon" />
+    <result column="mymodel_create_time" jdbcType="TIMESTAMP" property="mymodelCreateTime" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="cn.gdut.domain.mymodel.MyModel">
+    <result column="mymodel_data" jdbcType="LONGVARCHAR" property="mymodelData" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    mymodel_id, user_id, mymodel_name, mymodel_icon, mymodel_create_time
+  </sql>
+  <sql id="Blob_Column_List">
+    mymodel_data
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from mymodel
+    where mymodel_id = #{mymodelId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from mymodel
+    where mymodel_id = #{mymodelId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.gdut.domain.mymodel.MyModel" useGeneratedKeys="true"  keyProperty="mymodelId">
+    insert into mymodel (mymodel_id, user_id, mymodel_name, 
+      mymodel_icon, mymodel_create_time, mymodel_data
+      )
+    values (#{mymodelId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{mymodelName,jdbcType=VARCHAR}, 
+      #{mymodelIcon,jdbcType=VARCHAR}, #{mymodelCreateTime,jdbcType=TIMESTAMP}, #{mymodelData,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="cn.gdut.domain.mymodel.MyModel" useGeneratedKeys="true"  keyProperty="mymodelId">
+    insert into mymodel
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="mymodelId != null">
+        mymodel_id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="mymodelName != null">
+        mymodel_name,
+      </if>
+      <if test="mymodelIcon != null">
+        mymodel_icon,
+      </if>
+      <if test="mymodelCreateTime != null">
+        mymodel_create_time,
+      </if>
+      <if test="mymodelData != null">
+        mymodel_data,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="mymodelId != null">
+        #{mymodelId,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="mymodelName != null">
+        #{mymodelName,jdbcType=VARCHAR},
+      </if>
+      <if test="mymodelIcon != null">
+        #{mymodelIcon,jdbcType=VARCHAR},
+      </if>
+      <if test="mymodelCreateTime != null">
+        #{mymodelCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="mymodelData != null">
+        #{mymodelData,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.gdut.domain.mymodel.MyModel">
+    update mymodel
+    <set>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="mymodelName != null">
+        mymodel_name = #{mymodelName,jdbcType=VARCHAR},
+      </if>
+      <if test="mymodelIcon != null">
+        mymodel_icon = #{mymodelIcon,jdbcType=VARCHAR},
+      </if>
+      <if test="mymodelCreateTime != null">
+        mymodel_create_time = #{mymodelCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="mymodelData != null">
+        mymodel_data = #{mymodelData,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where mymodel_id = #{mymodelId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="cn.gdut.domain.mymodel.MyModel">
+    update mymodel
+    set user_id = #{userId,jdbcType=INTEGER},
+      mymodel_name = #{mymodelName,jdbcType=VARCHAR},
+      mymodel_icon = #{mymodelIcon,jdbcType=VARCHAR},
+      mymodel_create_time = #{mymodelCreateTime,jdbcType=TIMESTAMP},
+      mymodel_data = #{mymodelData,jdbcType=LONGVARCHAR}
+    where mymodel_id = #{mymodelId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.gdut.domain.mymodel.MyModel">
+    update mymodel
+    set user_id = #{userId,jdbcType=INTEGER},
+      mymodel_name = #{mymodelName,jdbcType=VARCHAR},
+      mymodel_icon = #{mymodelIcon,jdbcType=VARCHAR},
+      mymodel_create_time = #{mymodelCreateTime,jdbcType=TIMESTAMP}
+    where mymodel_id = #{mymodelId,jdbcType=INTEGER}
+  </update>
+  
+  
+  
+  
+  <select id="selectByUserId" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from mymodel
+    where user_id = #{userId,jdbcType=INTEGER}
+  </select>
+  
+  
+</mapper>

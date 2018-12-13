@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.gdut.mapper.AlgorithmParamMapper">
+  <resultMap id="BaseResultMap" type="cn.gdut.domain.AlgorithmParam">
+    <id column="param_id" jdbcType="INTEGER" property="paramId" />
+    <result column="algo_id" jdbcType="INTEGER" property="algoId" />
+    <result column="param_name" jdbcType="VARCHAR" property="paramName" />
+    <result column="param_order" jdbcType="INTEGER" property="paramOrder" />
+    <result column="param_type" jdbcType="INTEGER" property="paramType" />
+    <result column="param_show_type" jdbcType="INTEGER" property="paramShowType" />
+    <result column="param_default_value" jdbcType="VARCHAR" property="paramDefaultValue" />
+    <result column="param_bind" jdbcType="VARCHAR" property="paramBind" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="cn.gdut.domain.AlgorithmParam">
+    <result column="param_desc" jdbcType="LONGVARCHAR" property="paramDesc" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    param_id, algo_id, param_name, param_order, param_type, param_show_type, param_default_value, 
+    param_bind
+  </sql>
+  <sql id="Blob_Column_List">
+    param_desc
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from algorithmparam
+    where param_id = #{paramId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from algorithmparam
+    where param_id = #{paramId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.gdut.domain.AlgorithmParam" useGeneratedKeys="true"  keyProperty="paramId">
+    insert into algorithmparam (param_id, algo_id, param_name, 
+      param_order, param_type, param_show_type, 
+      param_default_value, param_bind, param_desc
+      )
+    values (#{paramId,jdbcType=INTEGER}, #{algoId,jdbcType=INTEGER}, #{paramName,jdbcType=VARCHAR}, 
+      #{paramOrder,jdbcType=INTEGER}, #{paramType,jdbcType=INTEGER}, #{paramShowType,jdbcType=INTEGER}, 
+      #{paramDefaultValue,jdbcType=VARCHAR}, #{paramBind,jdbcType=VARCHAR}, #{paramDesc,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="cn.gdut.domain.AlgorithmParam" useGeneratedKeys="true"  keyProperty="paramId">
+    insert into algorithmparam
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="paramId != null">
+        param_id,
+      </if>
+      <if test="algoId != null">
+        algo_id,
+      </if>
+      <if test="paramName != null">
+        param_name,
+      </if>
+      <if test="paramOrder != null">
+        param_order,
+      </if>
+      <if test="paramType != null">
+        param_type,
+      </if>
+      <if test="paramShowType != null">
+        param_show_type,
+      </if>
+      <if test="paramDefaultValue != null">
+        param_default_value,
+      </if>
+      <if test="paramBind != null">
+        param_bind,
+      </if>
+      <if test="paramDesc != null">
+        param_desc,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="paramId != null">
+        #{paramId,jdbcType=INTEGER},
+      </if>
+      <if test="algoId != null">
+        #{algoId,jdbcType=INTEGER},
+      </if>
+      <if test="paramName != null">
+        #{paramName,jdbcType=VARCHAR},
+      </if>
+      <if test="paramOrder != null">
+        #{paramOrder,jdbcType=INTEGER},
+      </if>
+      <if test="paramType != null">
+        #{paramType,jdbcType=INTEGER},
+      </if>
+      <if test="paramShowType != null">
+        #{paramShowType,jdbcType=INTEGER},
+      </if>
+      <if test="paramDefaultValue != null">
+        #{paramDefaultValue,jdbcType=VARCHAR},
+      </if>
+      <if test="paramBind != null">
+        #{paramBind,jdbcType=VARCHAR},
+      </if>
+      <if test="paramDesc != null">
+        #{paramDesc,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.gdut.domain.AlgorithmParam">
+    update algorithmparam
+    <set>
+      <if test="algoId != null">
+        algo_id = #{algoId,jdbcType=INTEGER},
+      </if>
+      <if test="paramName != null">
+        param_name = #{paramName,jdbcType=VARCHAR},
+      </if>
+      <if test="paramOrder != null">
+        param_order = #{paramOrder,jdbcType=INTEGER},
+      </if>
+      <if test="paramType != null">
+        param_type = #{paramType,jdbcType=INTEGER},
+      </if>
+      <if test="paramShowType != null">
+        param_show_type = #{paramShowType,jdbcType=INTEGER},
+      </if>
+      <if test="paramDefaultValue != null">
+        param_default_value = #{paramDefaultValue,jdbcType=VARCHAR},
+      </if>
+      <if test="paramBind != null">
+        param_bind = #{paramBind,jdbcType=VARCHAR},
+      </if>
+      <if test="paramDesc != null">
+        param_desc = #{paramDesc,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where param_id = #{paramId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="cn.gdut.domain.AlgorithmParam">
+    update algorithmparam
+    set algo_id = #{algoId,jdbcType=INTEGER},
+      param_name = #{paramName,jdbcType=VARCHAR},
+      param_order = #{paramOrder,jdbcType=INTEGER},
+      param_type = #{paramType,jdbcType=INTEGER},
+      param_show_type = #{paramShowType,jdbcType=INTEGER},
+      param_default_value = #{paramDefaultValue,jdbcType=VARCHAR},
+      param_bind = #{paramBind,jdbcType=VARCHAR},
+      param_desc = #{paramDesc,jdbcType=LONGVARCHAR}
+    where param_id = #{paramId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.gdut.domain.AlgorithmParam">
+    update algorithmparam
+    set algo_id = #{algoId,jdbcType=INTEGER},
+      param_name = #{paramName,jdbcType=VARCHAR},
+      param_order = #{paramOrder,jdbcType=INTEGER},
+      param_type = #{paramType,jdbcType=INTEGER},
+      param_show_type = #{paramShowType,jdbcType=INTEGER},
+      param_default_value = #{paramDefaultValue,jdbcType=VARCHAR},
+      param_bind = #{paramBind,jdbcType=VARCHAR}
+    where param_id = #{paramId,jdbcType=INTEGER}
+  </update>
+</mapper>

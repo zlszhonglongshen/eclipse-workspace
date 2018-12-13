@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+ 		PUBLIC " -//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+ 		"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<properties resource="db.properties"/>
+	<!-- 建议将JDBC驱动放到项目的**classpath**下，而不是使用<classPathEntry>来引入jar包，主要考虑到所有开发人员的统一性。-->
+    <classPathEntry
+            location="C:/Users/57622/.m2/repository/mysql/mysql-connector-java/5.1.32/mysql-connector-java-5.1.32.jar"/>
+            
+    <context id="MysqlContext" targetRuntime="MyBatis3" defaultModelType="flat" >
+    	<property name="beginningDelimiter" value="'" />
+        <property name="endingDelimiter" value="'" />
+        <commentGenerator>
+            <property name="suppressDate" value="true" />
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+        
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="${jdbc.url}" userId="${jdbc.username}"
+                        password="${jdbc.password}" >
+		</jdbcConnection>
+		<javaTypeResolver>
+    		<property name="forceBigDecimals" value="true" />
+		</javaTypeResolver>
+        
+
+        <javaModelGenerator targetPackage="cn.gdut.domain" targetProject="src/main/java" >
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="cn.gdut.mapper"
+                         targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />            
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER"
+        					 targetPackage="cn.gdut.mapper"
+                             targetProject="src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+        
+        
+        <!-- 生成数据库的example类实在是太复杂，一般用于构造复杂的查询语句如where等，这里用不着
+        <table schema="${jdbc.dbname}" tableName="algorithm" domainObjectName="Algorithm"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table schema="${jdbc.dbname}" tableName="algorithmfile" domainObjectName="AlgorithmFile"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table schema="${jdbc.dbname}" tableName="algorithmparam" domainObjectName="AlgorithmParam"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+		<table schema="${jdbc.dbname}" tableName="dict" domainObjectName="Dict"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+      
+        <table schema="${jdbc.dbname}" tableName="user" domainObjectName="User"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+		<table schema="${jdbc.dbname}" tableName="dsdb" domainObjectName="DsDb"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table schema="${jdbc.dbname}" tableName="dsfile" domainObjectName="DsFile"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>
+        <table schema="${jdbc.dbname}" tableName="mymodel" domainObjectName="MyModel"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false">
+        </table>	
+        -->
+        
+    </context>
+</generatorConfiguration>
+
+

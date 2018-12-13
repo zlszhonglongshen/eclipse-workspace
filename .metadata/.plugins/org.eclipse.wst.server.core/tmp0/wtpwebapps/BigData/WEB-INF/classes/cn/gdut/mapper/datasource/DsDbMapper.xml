@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.gdut.mapper.datasource.DsDbMapper">
+  <resultMap id="BaseResultMap" type="cn.gdut.domain.datasource.DsDb">
+    <id column="db_id" jdbcType="INTEGER" property="dbId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="db_ipport" jdbcType="VARCHAR" property="dbIpport" />
+    <result column="db_name" jdbcType="VARCHAR" property="dbName" />
+    <result column="db_username" jdbcType="VARCHAR" property="dbUsername" />
+    <result column="db_passwd" jdbcType="VARCHAR" property="dbPasswd" />
+    <result column="db_show_icon" jdbcType="VARCHAR" property="dbShowIcon" />
+    <result column="db_show_name" jdbcType="VARCHAR" property="dbShowName" />
+    <result column="db_type" jdbcType="INTEGER" property="dbType" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="db_create_time" jdbcType="TIMESTAMP" property="dbCreateTime" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="cn.gdut.domain.datasource.DsDb">
+    <result column="db_desc" jdbcType="LONGVARCHAR" property="dbDesc" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    db_id, user_id, db_ipport, db_name, db_username, db_passwd, db_show_icon, db_show_name, 
+    db_type, state, db_create_time
+  </sql>
+  <sql id="Blob_Column_List">
+    db_desc
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from dsdb
+    where db_id = #{dbId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from dsdb
+    where db_id = #{dbId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.gdut.domain.datasource.DsDb" useGeneratedKeys="true"  keyProperty="dbId">
+    insert into dsdb (db_id, user_id, db_ipport, 
+      db_name, db_username, db_passwd, 
+      db_show_icon, db_show_name, db_type, 
+      state, db_create_time, db_desc
+      )
+    values (#{dbId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{dbIpport,jdbcType=VARCHAR}, 
+      #{dbName,jdbcType=VARCHAR}, #{dbUsername,jdbcType=VARCHAR}, #{dbPasswd,jdbcType=VARCHAR}, 
+      #{dbShowIcon,jdbcType=VARCHAR}, #{dbShowName,jdbcType=VARCHAR}, #{dbType,jdbcType=INTEGER}, 
+      #{state,jdbcType=INTEGER}, #{dbCreateTime,jdbcType=TIMESTAMP}, #{dbDesc,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="cn.gdut.domain.datasource.DsDb" useGeneratedKeys="true"  keyProperty="dbId">
+    insert into dsdb
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="dbId != null">
+        db_id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="dbIpport != null">
+        db_ipport,
+      </if>
+      <if test="dbName != null">
+        db_name,
+      </if>
+      <if test="dbUsername != null">
+        db_username,
+      </if>
+      <if test="dbPasswd != null">
+        db_passwd,
+      </if>
+      <if test="dbShowIcon != null">
+        db_show_icon,
+      </if>
+      <if test="dbShowName != null">
+        db_show_name,
+      </if>
+      <if test="dbType != null">
+        db_type,
+      </if>
+      <if test="state != null">
+        state,
+      </if>
+      <if test="dbCreateTime != null">
+        db_create_time,
+      </if>
+      <if test="dbDesc != null">
+        db_desc,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="dbId != null">
+        #{dbId,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="dbIpport != null">
+        #{dbIpport,jdbcType=VARCHAR},
+      </if>
+      <if test="dbName != null">
+        #{dbName,jdbcType=VARCHAR},
+      </if>
+      <if test="dbUsername != null">
+        #{dbUsername,jdbcType=VARCHAR},
+      </if>
+      <if test="dbPasswd != null">
+        #{dbPasswd,jdbcType=VARCHAR},
+      </if>
+      <if test="dbShowIcon != null">
+        #{dbShowIcon,jdbcType=VARCHAR},
+      </if>
+      <if test="dbShowName != null">
+        #{dbShowName,jdbcType=VARCHAR},
+      </if>
+      <if test="dbType != null">
+        #{dbType,jdbcType=INTEGER},
+      </if>
+      <if test="state != null">
+        #{state,jdbcType=INTEGER},
+      </if>
+      <if test="dbCreateTime != null">
+        #{dbCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="dbDesc != null">
+        #{dbDesc,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.gdut.domain.datasource.DsDb">
+    update dsdb
+    <set>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="dbIpport != null">
+        db_ipport = #{dbIpport,jdbcType=VARCHAR},
+      </if>
+      <if test="dbName != null">
+        db_name = #{dbName,jdbcType=VARCHAR},
+      </if>
+      <if test="dbUsername != null">
+        db_username = #{dbUsername,jdbcType=VARCHAR},
+      </if>
+      <if test="dbPasswd != null">
+        db_passwd = #{dbPasswd,jdbcType=VARCHAR},
+      </if>
+      <if test="dbShowIcon != null">
+        db_show_icon = #{dbShowIcon,jdbcType=VARCHAR},
+      </if>
+      <if test="dbShowName != null">
+        db_show_name = #{dbShowName,jdbcType=VARCHAR},
+      </if>
+      <if test="dbType != null">
+        db_type = #{dbType,jdbcType=INTEGER},
+      </if>
+      <if test="state != null">
+        state = #{state,jdbcType=INTEGER},
+      </if>
+      <if test="dbCreateTime != null">
+        db_create_time = #{dbCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="dbDesc != null">
+        db_desc = #{dbDesc,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where db_id = #{dbId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="cn.gdut.domain.datasource.DsDb">
+    update dsdb
+    set user_id = #{userId,jdbcType=INTEGER},
+      db_ipport = #{dbIpport,jdbcType=VARCHAR},
+      db_name = #{dbName,jdbcType=VARCHAR},
+      db_username = #{dbUsername,jdbcType=VARCHAR},
+      db_passwd = #{dbPasswd,jdbcType=VARCHAR},
+      db_show_icon = #{dbShowIcon,jdbcType=VARCHAR},
+      db_show_name = #{dbShowName,jdbcType=VARCHAR},
+      db_type = #{dbType,jdbcType=INTEGER},
+      state = #{state,jdbcType=INTEGER},
+      db_create_time = #{dbCreateTime,jdbcType=TIMESTAMP},
+      db_desc = #{dbDesc,jdbcType=LONGVARCHAR}
+    where db_id = #{dbId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.gdut.domain.datasource.DsDb">
+    update dsdb
+    set user_id = #{userId,jdbcType=INTEGER},
+      db_ipport = #{dbIpport,jdbcType=VARCHAR},
+      db_name = #{dbName,jdbcType=VARCHAR},
+      db_username = #{dbUsername,jdbcType=VARCHAR},
+      db_passwd = #{dbPasswd,jdbcType=VARCHAR},
+      db_show_icon = #{dbShowIcon,jdbcType=VARCHAR},
+      db_show_name = #{dbShowName,jdbcType=VARCHAR},
+      db_type = #{dbType,jdbcType=INTEGER},
+      state = #{state,jdbcType=INTEGER},
+      db_create_time = #{dbCreateTime,jdbcType=TIMESTAMP}
+    where db_id = #{dbId,jdbcType=INTEGER}
+  </update>
+  
+  
+  <select id="selectByUserId" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from dsdb
+    where user_id = #{userId,jdbcType=INTEGER}
+  </select>
+  
+
+</mapper>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.gdut.mapper.datasource.DsFileMapper">
+  <resultMap id="BaseResultMap" type="cn.gdut.domain.datasource.DsFile">
+    <id column="file_id" jdbcType="INTEGER" property="fileId" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="file_show_icon" jdbcType="VARCHAR" property="fileShowIcon" />
+    <result column="file_show_name" jdbcType="VARCHAR" property="fileShowName" />
+    <result column="file_name" jdbcType="VARCHAR" property="fileName" />
+    <result column="file_addr" jdbcType="VARCHAR" property="fileAddr" />
+    <result column="separator_type" jdbcType="CHAR" property="separatorType" />
+    <result column="file_type" jdbcType="INTEGER" property="fileType" />
+    <result column="file_create_time" jdbcType="TIMESTAMP" property="fileCreateTime" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="cn.gdut.domain.datasource.DsFile">
+    <result column="file_desc" jdbcType="LONGVARCHAR" property="fileDesc" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    file_id, user_id, file_show_icon, file_show_name, file_name, file_addr, separator_type, 
+    file_type, file_create_time
+  </sql>
+  <sql id="Blob_Column_List">
+    file_desc
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from dsfile
+    where file_id = #{fileId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from dsfile
+    where file_id = #{fileId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.gdut.domain.datasource.DsFile" useGeneratedKeys="true"  keyProperty="fileId">
+    insert into dsfile (file_id, user_id, file_show_icon, 
+      file_show_name, file_name, file_addr, 
+      separator_type, file_type, file_create_time, 
+      file_desc)
+    values (#{fileId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{fileShowIcon,jdbcType=VARCHAR}, 
+      #{fileShowName,jdbcType=VARCHAR}, #{fileName,jdbcType=VARCHAR}, #{fileAddr,jdbcType=VARCHAR}, 
+      #{separatorType,jdbcType=CHAR}, #{fileType,jdbcType=INTEGER}, #{fileCreateTime,jdbcType=TIMESTAMP}, 
+      #{fileDesc,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.gdut.domain.datasource.DsFile" useGeneratedKeys="true"  keyProperty="fileId">
+    insert into dsfile
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="fileId != null">
+        file_id,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="fileShowIcon != null">
+        file_show_icon,
+      </if>
+      <if test="fileShowName != null">
+        file_show_name,
+      </if>
+      <if test="fileName != null">
+        file_name,
+      </if>
+      <if test="fileAddr != null">
+        file_addr,
+      </if>
+      <if test="separatorType != null">
+        separator_type,
+      </if>
+      <if test="fileType != null">
+        file_type,
+      </if>
+      <if test="fileCreateTime != null">
+        file_create_time,
+      </if>
+      <if test="fileDesc != null">
+        file_desc,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="fileId != null">
+        #{fileId,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="fileShowIcon != null">
+        #{fileShowIcon,jdbcType=VARCHAR},
+      </if>
+      <if test="fileShowName != null">
+        #{fileShowName,jdbcType=VARCHAR},
+      </if>
+      <if test="fileName != null">
+        #{fileName,jdbcType=VARCHAR},
+      </if>
+      <if test="fileAddr != null">
+        #{fileAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="separatorType != null">
+        #{separatorType,jdbcType=CHAR},
+      </if>
+      <if test="fileType != null">
+        #{fileType,jdbcType=INTEGER},
+      </if>
+      <if test="fileCreateTime != null">
+        #{fileCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="fileDesc != null">
+        #{fileDesc,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.gdut.domain.datasource.DsFile">
+    update dsfile
+    <set>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="fileShowIcon != null">
+        file_show_icon = #{fileShowIcon,jdbcType=VARCHAR},
+      </if>
+      <if test="fileShowName != null">
+        file_show_name = #{fileShowName,jdbcType=VARCHAR},
+      </if>
+      <if test="fileName != null">
+        file_name = #{fileName,jdbcType=VARCHAR},
+      </if>
+      <if test="fileAddr != null">
+        file_addr = #{fileAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="separatorType != null">
+        separator_type = #{separatorType,jdbcType=CHAR},
+      </if>
+      <if test="fileType != null">
+        file_type = #{fileType,jdbcType=INTEGER},
+      </if>
+      <if test="fileCreateTime != null">
+        file_create_time = #{fileCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="fileDesc != null">
+        file_desc = #{fileDesc,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where file_id = #{fileId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="cn.gdut.domain.datasource.DsFile">
+    update dsfile
+    set user_id = #{userId,jdbcType=INTEGER},
+      file_show_icon = #{fileShowIcon,jdbcType=VARCHAR},
+      file_show_name = #{fileShowName,jdbcType=VARCHAR},
+      file_name = #{fileName,jdbcType=VARCHAR},
+      file_addr = #{fileAddr,jdbcType=VARCHAR},
+      separator_type = #{separatorType,jdbcType=CHAR},
+      file_type = #{fileType,jdbcType=INTEGER},
+      file_create_time = #{fileCreateTime,jdbcType=TIMESTAMP},
+      file_desc = #{fileDesc,jdbcType=LONGVARCHAR}
+    where file_id = #{fileId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.gdut.domain.datasource.DsFile">
+    update dsfile
+    set user_id = #{userId,jdbcType=INTEGER},
+      file_show_icon = #{fileShowIcon,jdbcType=VARCHAR},
+      file_show_name = #{fileShowName,jdbcType=VARCHAR},
+      file_name = #{fileName,jdbcType=VARCHAR},
+      file_addr = #{fileAddr,jdbcType=VARCHAR},
+      separator_type = #{separatorType,jdbcType=CHAR},
+      file_type = #{fileType,jdbcType=INTEGER},
+      file_create_time = #{fileCreateTime,jdbcType=TIMESTAMP}
+    where file_id = #{fileId,jdbcType=INTEGER}
+  </update>
+  
+  
+  <select id="selectByUserId" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from dsfile
+    where user_id = #{userId,jdbcType=INTEGER}
+  </select>
+  
+  
+</mapper>
